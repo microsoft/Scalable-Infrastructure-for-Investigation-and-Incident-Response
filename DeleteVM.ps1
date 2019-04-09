@@ -16,7 +16,7 @@ Write-Host "      |:::::::::::|\"
 Write-Host "      --=========--()"
 Write-Host "`n"
 Write-Host "`n"
-Write-Host "This script will delete your the VM specified"
+Write-Host "This script will delete the VM specified"
 Write-Host "`n"
 Write-Host "### Checking Windows Azure PowerShell version: " -NoNewLine
 Try { 

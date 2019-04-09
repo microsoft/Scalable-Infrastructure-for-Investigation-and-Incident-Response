@@ -69,7 +69,7 @@ try
 }
 catch 
 {
-    Write-Host -ForegroundColor Red "Failed to Create User Passowrd Pair"
+    Write-Host -ForegroundColor Red "Failed to Create User Password Pair"
     Write-Host $_.Exception.Message
 }
 #############################################################################################
@@ -95,7 +95,7 @@ catch
 
 try 
 {	
-	# Add our CORP IPs to the Nsg
+	# Add Sprcified IPs or Ranges
     # Remove the open rdp rule
     $nsg | Remove-AzureRmNetworkSecurityRuleConfig -Name "myRdpRule" > $null
     $index=100
